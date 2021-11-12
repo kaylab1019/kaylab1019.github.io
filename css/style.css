@@ -87,11 +87,32 @@ img {
   margin: 1.69em auto;
 }
 
-.myButton:hover {
-    background-color:#e69500;
-    font-weight: bold;
+.donationButton {
+  background-color: #ffa500;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 16px 31px;
+  text-decoration: none;
+  margin: 0.5em auto;
 }
 
+.donationButton:hover {
+  background-color:#e69500;
+  font-weight: bold;
+}
+
+.donationButton:active {
+  position:relative;
+  top:1px;
+}
+
+.myButton:hover {
+  background-color:#e69500;
+  font-weight: bold;
+}
 .myButton:active {
     position:relative;
     top:1px;
