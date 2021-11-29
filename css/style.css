@@ -18,10 +18,6 @@ a h2:hover {
   text-decoration-color: #515b2f;
 }
 
-a p {
-  text-decoration: none;
-}
-
 header, footer {
   background-color: #606c38;
   text-align: center;
@@ -69,6 +65,7 @@ img {
   width: 100%;
   height: 50vh;
   object-fit: cover;
+  object-position: center;
 }
 
 .wrapper {
